@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,300;1,500&display=swap');
+/* font-family: 'Alegreya Sans SC', sans-serif;
+ */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 100vw;
+    height: 1100px; 
+    background-color: silver;
+    display: flex;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Container{
+    width: 65%;
+    height:1000px ;
+    background-color: orangered;
+    padding: 2% 0px 4% 0px;
+}
+.innerContainer{
+    width: 100%;
+    height: 100%; 
+    display: flex;
+}
+/*-----------innerLeftContainer---------- */
+.innerLeftContainer{
+    width: 40%;
+   height: 100%;
+    background: #6B5152;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left:21%;
+}
+/*summaryContainer */
+.summaryContainer
+{
+    margin-left: 8%;
+}
+.summaryContainer>h1
+{
+    color:#FF7A51 ;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-bottom: 4%;   
+}
+.summaryContainer>p
+{
+    color: white;
+    line-height: 22px;
+    letter-spacing: 1px;
+    font-size: 20px; 
+}
+/* contactContainer */
+.contactContainer{
+    margin-left: 8%;
+}
+.contactContainer>h1{
+    color:#FF7A51 ;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-bottom: 4%;   
+}
+.contactContainer>ul{
+    color:white ;
+    list-style: none;
+    line-height: 22px;
+    font-size: 20px;  
+}
+.contactContainer>ul>li>a{
+   color:burlywood;     
+}
+/* softSkillContainer */
+.softSkillContainer{
+    margin-left: 8%;
+}
+.softSkillContainer>h1{
+    color:#FF7A51 ; 
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-bottom: 4%; 
+}
+.softSkillContainer>ul{
+    color:white ;
+    line-height: 22px;
+    font-size: 20px;    
+}
+/*  CertificationContainer */
+.CertificationContainer{
+    margin-left: 8%;
+}
+.CertificationContainer>h1{
+    color:#FF7A51 ; 
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-bottom: 4%; 
+}   
+.CertificationContainer>ul{
+    color:white ;
+    line-height: 22px;
+    font-size: 20px;    
+}
+/*----------innerRightContainer------------- */
+.innerRightContainer{
+    width: 60%;
+    height: 100%;
+    background-color: #3B3B3B;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+/* nameWorkContainer */
+.nameWorkContainer{
+    margin-left: 5%;
+}
+.nameWorkContainer>h1{
+    color:#F5DEB3 ;
+    font-size: 60px;
+    font-weight: bold;
+}
+.nameWorkContainer>h2{
+    color:#FF7A51 ;
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+/* workExpiContainer */
+.workExpiContainer{
+    margin-left: 5%;
+}
+.workExpiContainer>h1{
+    
+    color:#FF7A51 ;
+    font-weight: bold;
+    letter-spacing: 2px;    
+}
+.workExpiContainer>h2{
+    margin-bottom: 2%;
+    color:#F5DEB3 ;
+    font-weight: bold;
+    letter-spacing: 2px;
+   font-size: 18px;    
+}
+.workExpiContainer>p{
+    color:#FF7A51 ;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+.workExpiContainer>ul{
+    margin-top: 4%;
+    color:white ;
+    line-height: 22px;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+/* EducationContainer */
+.educationContainer{
+    margin-left: 5%;
+}
+.educationContainer>h1{
+    color:#FF7A51 ;
+    margin-bottom: 2%;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.educationContainer>h2{
+    color:#F5DEB3 ;
+    letter-spacing: 1px;
+}
+.educationContainer>ul{
+    color: white;
+    letter-spacing: 1px;
+    line-height: 22px;
+    font-size: 18px;
+    margin-top: 4%;
+    font-size: 20px; 
+}
+/* hardSkills */
+.hardSkills{
+    margin-left: 5%;
+}
+.hardSkills>h1{
+    color:#FF7A51 ;
+    margin-bottom: 2%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.hardSkills>ul{
+    color: white;
+    letter-spacing: 1px;
+    line-height: 30px;  
+    font-size: 20px;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
